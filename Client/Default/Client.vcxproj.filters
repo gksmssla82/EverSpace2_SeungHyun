@@ -1,0 +1,1118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{e16d4d0c-75e5-4f6a-852b-b5c242f05f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defaults">
+      <UniqueIdentifier>{8389c2b8-5963-4750-a51c-0354c0fb6bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{eff56dd2-a1dd-4065-b016-b242dda10490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{144281cc-a129-4b2b-87b4-ba5add880a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Logo">
+      <UniqueIdentifier>{aacaa929-73ad-4c80-bdec-1f1407800b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading">
+      <UniqueIdentifier>{67e26c50-bb42-4fef-952d-8c870871c9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading\Loader">
+      <UniqueIdentifier>{0725b782-fb6e-4175-96b7-4099cd639ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{d82d045d-f3df-48ca-85c6-d375684d5662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04. Terrain">
+      <UniqueIdentifier>{3e4f3c86-6ff2-4698-aa04-79444a09b1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object">
+      <UniqueIdentifier>{067dc810-ebff-4191-b51d-b8b86ea6e380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster">
+      <UniqueIdentifier>{724bfe03-e6b2-4318-8ef5-193550918ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object\01. Cam_TPS">
+      <UniqueIdentifier>{e5f649ba-57d5-448e-b5d4-61bc67672bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object\00. Cam_Free">
+      <UniqueIdentifier>{2fcd89fe-11d7-404c-9723-bcba1e528273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object\02. Cam_FPS">
+      <UniqueIdentifier>{167eb6c4-7b0c-43bb-b4cf-9aa37d87ece8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object\03. Cam_Shoulder">
+      <UniqueIdentifier>{98c37a5e-4eb2-4e48-a70f-f658331b4355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. UITest">
+      <UniqueIdentifier>{08e536b4-07ed-4d26-85cc-d3c404e48da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00. Player">
+      <UniqueIdentifier>{5bbc74ac-51d4-4b0f-9cbf-b4c01ecfd969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\EnemySpace">
+      <UniqueIdentifier>{9b1b7ac5-60c7-490d-89a3-5ebd8a68bc87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI">
+      <UniqueIdentifier>{0490002b-9b52-4a93-b9fe-323e9753bc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\00. StatusUI">
+      <UniqueIdentifier>{e657156e-73b8-431d-982f-1d7f819450b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\01. BulletUI">
+      <UniqueIdentifier>{3b94ad26-3396-4fb4-ba53-8cb3db730943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. UITest\Logo">
+      <UniqueIdentifier>{6bb5c36a-72de-4ccf-81d5-8849cacc2d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object\04. Cam_Moving">
+      <UniqueIdentifier>{0d73d39a-9716-4db9-913c-cc8991ef9d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00. Player\AI_Friendly">
+      <UniqueIdentifier>{9f84a888-4e75-4ca0-bda1-90ac50b954b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Turret">
+      <UniqueIdentifier>{2a1ebd7d-3fbe-4fc8-9d9d-a5ed2a5d3922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Turret\Normal">
+      <UniqueIdentifier>{3f4d50fd-c3ce-41f2-8a20-2463fbb4f8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Bullet">
+      <UniqueIdentifier>{26b96253-5e95-455b-89fc-fc1a7be41a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Bullet\Normal">
+      <UniqueIdentifier>{43c81292-dac2-4e57-96cb-77a636f16317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08. Aim">
+      <UniqueIdentifier>{c289b9d4-7661-4bb5-bb41-8a8e05b1072f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08. Aim\Auto_Aim">
+      <UniqueIdentifier>{9eae39b9-843d-4682-9159-98169a48aea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08. Aim\FPS_Aim">
+      <UniqueIdentifier>{f0f15b68-20f9-4884-af0d-3ee69e1f4d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08. Aim\Default_Aim">
+      <UniqueIdentifier>{734aabdc-1d76-4a3a-91db-df9e552fa7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box">
+      <UniqueIdentifier>{0fe98c48-2de0-4630-ad1c-ae8ae3dbaa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\TargetingBox">
+      <UniqueIdentifier>{8fc77501-5795-4450-b246-1a210fb9072d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\SkyBox">
+      <UniqueIdentifier>{c62e7395-293e-4448-9a84-cb8755b2214a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06. Planet">
+      <UniqueIdentifier>{da87416d-1441-4a2b-9e14-1774ec64dff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06. Planet\Venus">
+      <UniqueIdentifier>{220c64e2-24e7-4cf6-9075-a59c15bc4946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Bullet\Lazer">
+      <UniqueIdentifier>{34446649-c742-4436-b72e-e67123087281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Turret\Lazer">
+      <UniqueIdentifier>{3c4a3ac0-59e4-4dd5-b9c7-3c686870072f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06. Planet\Sun">
+      <UniqueIdentifier>{96eed99b-c0d0-4c0b-88cd-44f63b7a1caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06. Planet\Red">
+      <UniqueIdentifier>{7add39bb-f3de-4479-86ed-a0a96ee2a31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06. Planet\Magma">
+      <UniqueIdentifier>{94052d7d-a2b5-44dd-8102-97c4f7c87b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06. Planet\Exo">
+      <UniqueIdentifier>{3121850d-d0b5-4401-9762-560237b8968f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Level_Red">
+      <UniqueIdentifier>{682cbcc4-8369-43ae-97de-26b779b658b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.Level_Select">
+      <UniqueIdentifier>{549eec5f-3b33-4fcf-a38a-86d10ebaadf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03.Level_Exo">
+      <UniqueIdentifier>{9682c7a5-d67f-414b-9e07-0ad9e2e40ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Level_Magma">
+      <UniqueIdentifier>{d1b914fc-4239-4b51-95b9-0136eb022a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\05.Level_Venus">
+      <UniqueIdentifier>{2f8e8cb4-bac1-4e55-af3b-8ca3d815bac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11. Light">
+      <UniqueIdentifier>{3ad58ff7-fc3c-4713-a020-6a6d7bc5d31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem">
+      <UniqueIdentifier>{99ed4003-2a43-468d-ba0c-c80dd79c519d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\01. SpaceDust_PSystem">
+      <UniqueIdentifier>{90a1cca8-a95f-415d-a387-2fb49cacdd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\00. Trajectory_PSystem">
+      <UniqueIdentifier>{13c5497c-ff42-4c4d-98d8-57b96494ae1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\Loading">
+      <UniqueIdentifier>{91d6ac50-951a-4727-b597-ac9edfcafe02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\Quest">
+      <UniqueIdentifier>{7db25916-24a3-4d33-9c54-a60e01581cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00. Player\Kang_Ship">
+      <UniqueIdentifier>{1f606b71-6312-4c75-8d94-bb43e7d2f5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00. Player\Song_Ship">
+      <UniqueIdentifier>{9bafb749-24b4-4141-88d8-028af94e5998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\TextBox">
+      <UniqueIdentifier>{b03a9ea0-5a43-4826-96ff-ddab3c3d0cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00. Player\Hong_Ship">
+      <UniqueIdentifier>{a39c5264-5429-4ff8-88d9-2c3f55dcf10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00. Player\Shin_Ship">
+      <UniqueIdentifier>{77e76612-f35f-4f28-9df1-632015c131ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\02. Fire_PSystem">
+      <UniqueIdentifier>{0912303c-d4de-443f-bd2e-c029a038e879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\03. Booster_PSystem">
+      <UniqueIdentifier>{787a83de-c61c-4b15-b499-fd128322e05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13. Effect">
+      <UniqueIdentifier>{94ce4f5c-7777-4b1d-b68c-2be3a302ece6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13. Effect\Bomb_Effect">
+      <UniqueIdentifier>{023f9a23-e29e-4fc5-b70a-91bb1dc32678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\04. Smoke_PSystem">
+      <UniqueIdentifier>{54bf25db-7a05-4d2d-9cfe-28c75a274a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\05. Move_PSystem">
+      <UniqueIdentifier>{5b396ea5-9178-4a3f-bbb2-b940fe1fc62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\Loading\Logo">
+      <UniqueIdentifier>{6bb5c36a-72de-4ccf-81d5-8849cacc2d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\Warring">
+      <UniqueIdentifier>{6e8e4125-5748-4dfb-a1e5-3d5936265b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00. Player\AI_TransportShip">
+      <UniqueIdentifier>{1141a8dd-26b4-43f2-982a-c7e2c58c8f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13. Effect\Teleport_Effect">
+      <UniqueIdentifier>{e6cb5f1e-c3fd-4e12-865e-de29617c6851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\Dive">
+      <UniqueIdentifier>{e3aaa70c-d1e3-428f-b29c-5229da6639e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Turret\Rocket">
+      <UniqueIdentifier>{62998e02-2f42-447e-b785-1c8d493890f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\06. Rocket_PSystem">
+      <UniqueIdentifier>{d0f69e45-d9dc-4124-8b5d-9cb34c25c423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\SkyBox\Select">
+      <UniqueIdentifier>{62d1b17e-3344-490a-832b-d7d040fb0dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\SkyBox\Red">
+      <UniqueIdentifier>{2b66074a-a903-47cc-ab69-41c8af985905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\SkyBox\Exo">
+      <UniqueIdentifier>{595d3c1a-3936-424d-8bf0-6a3b47dc9d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\SkyBox\Magma">
+      <UniqueIdentifier>{150ace55-8483-4179-a53b-b70d4a105c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\SkyBox\Venus">
+      <UniqueIdentifier>{3d0ea51d-186a-4461-ad21-9d8fa9fb7708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\MagmaSpace">
+      <UniqueIdentifier>{17ddb38b-7d03-4881-a26c-61468e28776b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\06. Level_CharacterSelect">
+      <UniqueIdentifier>{d9c5d892-fc42-4310-a07a-ce1fd73dbc64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\06. Rocket_PSystem">
+      <UniqueIdentifier>{d0f69e45-d9dc-4124-8b5d-9cb34c25c423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09. Box\SkyBox\Select">
+      <UniqueIdentifier>{62d1b17e-3344-490a-832b-d7d040fb0dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\Taget">
+      <UniqueIdentifier>{98c9f86d-5367-4983-b141-08b728fa034b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\StagBeetle">
+      <UniqueIdentifier>{7b75a45e-bbc5-42f9-8981-45edcbc9ec3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06. Planet\Select">
+      <UniqueIdentifier>{270729ba-3ce4-4e41-ba4f-b19706206fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\07.Level_Sun">
+      <UniqueIdentifier>{0863205c-922f-4de1-9040-16bd29d88c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object\05. Cam_Fixed">
+      <UniqueIdentifier>{ec4b037b-1f48-4e55-90c9-746e8ce620ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. UITest\Logo\CharacterLogo">
+      <UniqueIdentifier>{83bf28d5-0a0c-43fb-8017-347bdd119c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\CharterSelect">
+      <UniqueIdentifier>{7a028f1d-928e-4895-b71f-a0b7015d3a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\SelectPlayerUI">
+      <UniqueIdentifier>{781215bd-6701-4d90-a2a1-3f8d8d2a43b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\SelectPlayerUI\Damage">
+      <UniqueIdentifier>{c3db89d6-07b2-4e80-b49a-85618d964c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\SelectPlayerUI\Armor">
+      <UniqueIdentifier>{049bb4fe-65bf-4785-b0bf-134716611687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\SelectPlayerUI\Health">
+      <UniqueIdentifier>{0d7f186f-9a70-48f3-bb73-91f187494090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\SelectPlayerUI\Speed">
+      <UniqueIdentifier>{b81f272e-3483-432b-b084-d1d99a612651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\SelectPlayerUI\Parts">
+      <UniqueIdentifier>{e75b8b50-4f00-4116-a5e8-bf232fa61005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05. Camera_Object\05. Cam_Fixed">
+      <UniqueIdentifier>{ec4b037b-1f48-4e55-90c9-746e8ce620ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\14. GPS">
+      <UniqueIdentifier>{b9f88f1c-52a6-46c6-85c1-15cec63e44d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\14. GPS\Enemy_GPS">
+      <UniqueIdentifier>{bd09e7ec-2247-4f53-bce4-0a4992070dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\14. GPS\Friendly_GPS">
+      <UniqueIdentifier>{fd7c8726-268a-4dae-8db7-f0f80f315303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\08. Rader_PSystem">
+      <UniqueIdentifier>{5f26074a-221d-4601-bc13-4ab34609bd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10. ParticleSystem\07. Rock_PSystem">
+      <UniqueIdentifier>{1b6f4db0-1f69-4990-9d68-7a6da01deed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\00. StatusUI\AI_HPBar">
+      <UniqueIdentifier>{0932f8ec-827f-4fc9-9d79-b2d7001423bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\Scourge">
+      <UniqueIdentifier>{fa6b764d-a931-4da9-8858-ba83fa8ff057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\Roller">
+      <UniqueIdentifier>{795fc578-e3b8-4c19-a6ff-29b63b0c0447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Turret\Bayonet">
+      <UniqueIdentifier>{c0be6a96-18e3-4bce-81a6-b8e5913698b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object">
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\Roller">
+      <UniqueIdentifier>{795fc578-e3b8-4c19-a6ff-29b63b0c0447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Turret\Bayonet">
+      <UniqueIdentifier>{c0be6a96-18e3-4bce-81a6-b8e5913698b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02. Monster\Boss">
+      <UniqueIdentifier>{90105a03-067d-465b-9881-5b071c7acf1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object">
+      <UniqueIdentifier>{afad32fc-5a47-4466-9ed3-22149cca8887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Rock">
+      <UniqueIdentifier>{60093a4a-f599-45fd-82db-b87ff7b1ba91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Rock\Rock1">
+      <UniqueIdentifier>{229027e3-cc56-41eb-aeef-b092f1306770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Rock\Rock2">
+      <UniqueIdentifier>{179fcfb8-4845-41fb-ac30-9e9f46e53e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Rock\Rock3">
+      <UniqueIdentifier>{f12fa7dc-ff54-46c4-9c0f-565d17555ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Rock\Rock4">
+      <UniqueIdentifier>{0a29be65-cb90-48fa-ad41-217a388c065d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Satellite">
+      <UniqueIdentifier>{5cd239f1-d403-436a-929d-9829b5a22383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Satellite\Satellite1">
+      <UniqueIdentifier>{2d8ef0d3-d00b-4b43-913f-ee2761ea085f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Satellite\Satellite2">
+      <UniqueIdentifier>{628c8b38-ac7c-4ef7-b02d-750c54f71621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12. BillBoard_Object\Satellite\Satellite3">
+      <UniqueIdentifier>{70001689-47c6-4145-a1ee-1de0a25c9d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\00. StatusUI\TransportShip_HpBar">
+      <UniqueIdentifier>{87699643-a2b7-4fd4-bd05-dbcd4406284e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13. Effect\BlackHole">
+      <UniqueIdentifier>{49dabd87-97a4-4254-8185-78d4dc44e263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\00. StatusUI\Boss_HpBar">
+      <UniqueIdentifier>{e1d73bb1-b0af-4969-98b1-12c1e95c710b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13. Effect\EnemySpawn_Effect">
+      <UniqueIdentifier>{bc32d28d-6e93-4a24-93dd-580f7e17e5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07. UI\TextureDrawUI">
+      <UniqueIdentifier>{f03af253-2c47-40e5-8d26-4e05419be448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Bullet\Rocket">
+      <UniqueIdentifier>{4e1ddc4f-c212-49e2-b683-3ad8501e612c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13. Effect\RollerSpawn_Effect">
+      <UniqueIdentifier>{9a85158f-7d96-45dc-b172-9932eb8d701c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\15. Trajectory">
+      <UniqueIdentifier>{d287f0d2-0309-4aec-833f-b158aa920ca0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_RedPlanet.h">
+      <Filter>01.Levels\02.Level_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02.GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObject\04. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cam_TPS.h">
+      <Filter>02.GameObject\05. Camera_Object\01. Cam_TPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cam_FPS.h">
+      <Filter>02.GameObject\05. Camera_Object\02. Cam_FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cam_Shoulder.h">
+      <Filter>02.GameObject\05. Camera_Object\03. Cam_Shoulder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UITest.h">
+      <Filter>97. UITest</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpace_Body.h">
+      <Filter>02.GameObject\02. Monster\EnemySpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Default_Aim.h">
+      <Filter>02.GameObject\08. Aim\Default_Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TargetingBox.h">
+      <Filter>02.GameObject\09. Box\TargetingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02.GameObject\07. UI\Loading\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AI_Friendly.h">
+      <Filter>02.GameObject\00. Player\AI_Friendly</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>97. UITest\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StatusBar.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBar.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ShieldBar.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BoosterBar.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BulletUI.h">
+      <Filter>02.GameObject\07. UI\01. BulletUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BulletCountUI.h">
+      <Filter>02.GameObject\07. UI\01. BulletUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MovingCamera.h">
+      <Filter>02.GameObject\05. Camera_Object\04. Cam_Moving</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Kang_Ship_Body.h">
+      <Filter>02.GameObject\00. Player\Kang_Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Normal_Bullet.h">
+      <Filter>02.GameObject\03. Bullet\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Normal_Turret.h">
+      <Filter>02.GameObject\01. Turret\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkyBox.h">
+      <Filter>02.GameObject\09. Box\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkyBox.h">
+      <Filter>02.GameObject\09. Box\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_SelectPlanet.h">
+      <Filter>01.Levels\01.Level_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet_Venus.h">
+      <Filter>02.GameObject\06. Planet\Venus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lazer_Bullet.h">
+      <Filter>02.GameObject\03. Bullet\Lazer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lazer_Turret.h">
+      <Filter>02.GameObject\01. Turret\Lazer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet_Sun.h">
+      <Filter>02.GameObject\06. Planet\Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet_Red.h">
+      <Filter>02.GameObject\06. Planet\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Roket_Bullet.h">
+      <Filter>02.GameObject\03. Bullet\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet_Venus.h">
+      <Filter>02.GameObject\06. Planet\Venus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet_Magma.h">
+      <Filter>02.GameObject\06. Planet\Magma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet_Exo.h">
+      <Filter>02.GameObject\06. Planet\Exo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_ExoPlanet.h">
+      <Filter>01.Levels\03.Level_Exo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_VenusPlanet.h">
+      <Filter>01.Levels\05.Level_Venus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_MagmaPlanet.h">
+      <Filter>01.Levels\04.Level_Magma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Light_Moon.h">
+      <Filter>02.GameObject\11. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loading.h">
+      <Filter>02.GameObject\07. UI\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bullet.h">
+      <Filter>02.GameObject\03. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Trajectory_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\00. Trajectory_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpaceDust_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\01. SpaceDust_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Quest.h">
+      <Filter>02.GameObject\07. UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Song_Ship_Body.h">
+      <Filter>02.GameObject\00. Player\Song_Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TextBox.h">
+      <Filter>02.GameObject\07. UI\TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hong_Ship_Body.h">
+      <Filter>02.GameObject\00. Player\Hong_Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shin_Ship_Body.h">
+      <Filter>02.GameObject\00. Player\Shin_Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fire_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\02. Fire_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Booster_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\03. Booster_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect.h">
+      <Filter>02.GameObject\13. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bomb_Effect.h">
+      <Filter>02.GameObject\13. Effect\Bomb_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Smoke_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\04. Smoke_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Move_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\05. Move_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>02.GameObject\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Warring.h">
+      <Filter>02.GameObject\07. UI\Warring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AI_TransportShip.h">
+      <Filter>02.GameObject\00. Player\AI_TransportShip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Teleport_Effect.h">
+      <Filter>02.GameObject\13. Effect\Teleport_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet.h">
+      <Filter>02.GameObject\06. Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dive.h">
+      <Filter>02.GameObject\07. UI\Dive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObject\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Turret.h">
+      <Filter>02.GameObject\01. Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rocket_Turret.h">
+      <Filter>02.GameObject\01. Turret\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rocket_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\06. Rocket_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SelectPlanet_SkyBox.h">
+      <Filter>02.GameObject\09. Box\SkyBox\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedPlanet_SkyBox.h">
+      <Filter>02.GameObject\09. Box\SkyBox\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VenusPlanet_SkyBox.h">
+      <Filter>02.GameObject\09. Box\SkyBox\Venus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MagmaPlanet_SkyBox.h">
+      <Filter>02.GameObject\09. Box\SkyBox\Magma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExoPlanet_SkyBox.h">
+      <Filter>02.GameObject\09. Box\SkyBox\Exo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MagmaSpace_Body.h">
+      <Filter>02.GameObject\02. Monster\MagmaSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_CharacterSelect.h">
+      <Filter>01.Levels\06. Level_CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Enemy_TagetBoard.h">
+      <Filter>02.GameObject\02. Monster\Taget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Planet_Select.h">
+      <Filter>02.GameObject\06. Planet\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_SunPlanet.h">
+      <Filter>01.Levels\07.Level_Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock_1.h">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock_2.h">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock_3.h">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock_4.h">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BillBoard_Object.h">
+      <Filter>02.GameObject\12. BillBoard_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Enemy_StagBeetle.h">
+      <Filter>02.GameObject\02. Monster\StagBeetle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Satellite_1.h">
+      <Filter>02.GameObject\12. BillBoard_Object\Satellite\Satellite1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Satellite_2.h">
+      <Filter>02.GameObject\12. BillBoard_Object\Satellite\Satellite2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Satellite_3.h">
+      <Filter>02.GameObject\12. BillBoard_Object\Satellite\Satellite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CharacterLogo.h">
+      <Filter>97. UITest\Logo\CharacterLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Benner.h">
+      <Filter>02.GameObject\07. UI\CharterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Damage_UI.h">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Speed_UI.h">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Speed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Armor_UI.h">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Health_UI.h">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Parts_UI.h">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SelectShip.h">
+      <Filter>02.GameObject\07. UI\CharterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\07. Rock_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Enemy_StagBeetle.h">
+      <Filter>02.GameObject\02. Monster\StagBeetle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AI_HPBar.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI\AI_HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Enemy_Scourge.h">
+      <Filter>02.GameObject\02. Monster\Scourge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Enemy_Roller.h">
+      <Filter>02.GameObject\02. Monster\Roller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bayonet_Turret.h">
+      <Filter>02.GameObject\01. Turret\Bayonet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GPS.h">
+      <Filter>02.GameObject\14. GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Friendly_GPS.h">
+      <Filter>02.GameObject\14. GPS\Friendly_GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Enemy_GPS.h">
+      <Filter>02.GameObject\14. GPS\Enemy_GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rader_PSystem.h">
+      <Filter>02.GameObject\10. ParticleSystem\08. Rader_PSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_HpBar.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI\Boss_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_HpTable.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI\Boss_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Name.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI\Boss_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TransportShip_HpBar.h">
+      <Filter>02.GameObject\07. UI\00. StatusUI\TransportShip_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SunSpaceBoss_Body.h">
+      <Filter>02.GameObject\02. Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackHole_Effect.h">
+      <Filter>02.GameObject\13. Effect\BlackHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EnemySpawn_Effect.h">
+      <Filter>02.GameObject\13. Effect\EnemySpawn_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TextureDrawUI.h">
+      <Filter>02.GameObject\07. UI\TextureDrawUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RollerSpawn_Effect.h">
+      <Filter>02.GameObject\13. Effect\RollerSpawn_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Trajectory.h">
+      <Filter>02.GameObject\15. Trajectory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_RedPlanet.cpp">
+      <Filter>01.Levels\02.Level_Red</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02.GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObject\04. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cam_TPS.cpp">
+      <Filter>02.GameObject\05. Camera_Object\01. Cam_TPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cam_FPS.cpp">
+      <Filter>02.GameObject\05. Camera_Object\02. Cam_FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cam_Shoulder.cpp">
+      <Filter>02.GameObject\05. Camera_Object\03. Cam_Shoulder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UITest.cpp">
+      <Filter>97. UITest</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpace_Body.cpp">
+      <Filter>02.GameObject\02. Monster\EnemySpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Default_Aim.cpp">
+      <Filter>02.GameObject\08. Aim\Default_Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TargetingBox.cpp">
+      <Filter>02.GameObject\09. Box\TargetingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02.GameObject\07. UI\Loading\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AI_Friendly.cpp">
+      <Filter>02.GameObject\00. Player\AI_Friendly</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>97. UITest\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StatusBar.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBar.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ShieldBar.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BoosterBar.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BulletUI.cpp">
+      <Filter>02.GameObject\07. UI\01. BulletUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BulletCountUI.cpp">
+      <Filter>02.GameObject\07. UI\01. BulletUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MovingCamera.cpp">
+      <Filter>02.GameObject\05. Camera_Object\04. Cam_Moving</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Kang_Ship_Body.cpp">
+      <Filter>02.GameObject\00. Player\Kang_Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Normal_Bullet.cpp">
+      <Filter>02.GameObject\03. Bullet\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Normal_Turret.cpp">
+      <Filter>02.GameObject\01. Turret\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkyBox.cpp">
+      <Filter>02.GameObject\09. Box\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkyBox.cpp">
+      <Filter>02.GameObject\09. Box\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_SelectPlanet.cpp">
+      <Filter>01.Levels\01.Level_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet_Venus.cpp">
+      <Filter>02.GameObject\06. Planet\Venus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lazer_Bullet.cpp">
+      <Filter>02.GameObject\03. Bullet\Lazer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lazer_Turret.cpp">
+      <Filter>02.GameObject\01. Turret\Lazer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet_Sun.cpp">
+      <Filter>02.GameObject\06. Planet\Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet_Red.cpp">
+      <Filter>02.GameObject\06. Planet\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Roket_Bullet.cpp">
+      <Filter>02.GameObject\03. Bullet\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet_Venus.cpp">
+      <Filter>02.GameObject\06. Planet\Venus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet_Magma.cpp">
+      <Filter>02.GameObject\06. Planet\Magma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet_Exo.cpp">
+      <Filter>02.GameObject\06. Planet\Exo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_ExoPlanet.cpp">
+      <Filter>01.Levels\03.Level_Exo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_VenusPlanet.cpp">
+      <Filter>01.Levels\05.Level_Venus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_MagmaPlanet.cpp">
+      <Filter>01.Levels\04.Level_Magma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Light_Moon.cpp">
+      <Filter>02.GameObject\11. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loading.cpp">
+      <Filter>02.GameObject\07. UI\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bullet.cpp">
+      <Filter>02.GameObject\03. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Trajectory_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\00. Trajectory_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpaceDust_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\01. SpaceDust_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Quest.cpp">
+      <Filter>02.GameObject\07. UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObject\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TextBox.cpp">
+      <Filter>02.GameObject\07. UI\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Song_Ship_Body.cpp">
+      <Filter>02.GameObject\00. Player\Song_Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TextBox.cpp">
+      <Filter>02.GameObject\07. UI\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hong_Ship_Body.cpp">
+      <Filter>02.GameObject\00. Player\Hong_Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shin_Ship_Body.cpp">
+      <Filter>02.GameObject\00. Player\Shin_Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fire_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\02. Fire_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Booster_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\03. Booster_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect.cpp">
+      <Filter>02.GameObject\13. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bomb_Effect.cpp">
+      <Filter>02.GameObject\13. Effect\Bomb_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Smoke_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\04. Smoke_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Move_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\05. Move_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>02.GameObject\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Warring.cpp">
+      <Filter>02.GameObject\07. UI\Warring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AI_TransportShip.cpp">
+      <Filter>02.GameObject\00. Player\AI_TransportShip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Teleport_Effect.cpp">
+      <Filter>02.GameObject\13. Effect\Teleport_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet.cpp">
+      <Filter>02.GameObject\06. Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dive.cpp">
+      <Filter>02.GameObject\07. UI\Dive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Turret.cpp">
+      <Filter>02.GameObject\01. Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rocket_Turret.cpp">
+      <Filter>02.GameObject\01. Turret\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rocket_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\06. Rocket_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SelectPlanet_SkyBox.cpp">
+      <Filter>02.GameObject\09. Box\SkyBox\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedPlanet_SkyBox.cpp">
+      <Filter>02.GameObject\09. Box\SkyBox\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VenusPlanet_SkyBox.cpp">
+      <Filter>02.GameObject\09. Box\SkyBox\Venus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MagmaPlanet_SkyBox.cpp">
+      <Filter>02.GameObject\09. Box\SkyBox\Magma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExoPlanet_SkyBox.cpp">
+      <Filter>02.GameObject\09. Box\SkyBox\Exo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MagmaSpace_Body.cpp">
+      <Filter>02.GameObject\02. Monster\MagmaSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_CharacterSelect.cpp">
+      <Filter>01.Levels\06. Level_CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Enemy_TagetBoard.cpp">
+      <Filter>02.GameObject\02. Monster\Taget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Planet_Select.cpp">
+      <Filter>02.GameObject\06. Planet\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_SunPlanet.cpp">
+      <Filter>01.Levels\07.Level_Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock_1.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock_2.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock_3.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock_4.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object\Rock\Rock4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BillBoard_Object.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Enemy_StagBeetle.cpp">
+      <Filter>02.GameObject\02. Monster\StagBeetle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Satellite_1.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object\Satellite\Satellite1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Satellite_2.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object\Satellite\Satellite2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Satellite_3.cpp">
+      <Filter>02.GameObject\12. BillBoard_Object\Satellite\Satellite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CharacterLogo.cpp">
+      <Filter>97. UITest\Logo\CharacterLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Benner.cpp">
+      <Filter>02.GameObject\07. UI\CharterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Damage_UI.cpp">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Armor_UI.cpp">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Health_UI.cpp">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Parts_UI.cpp">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Speed_UI.cpp">
+      <Filter>02.GameObject\07. UI\SelectPlayerUI\Speed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SelectShip.cpp">
+      <Filter>02.GameObject\07. UI\CharterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\07. Rock_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Enemy_StagBeetle.cpp">
+      <Filter>02.GameObject\02. Monster\StagBeetle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AI_HPBar.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI\AI_HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Enemy_Scourge.cpp">
+      <Filter>02.GameObject\02. Monster\Scourge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Enemy_Roller.cpp">
+      <Filter>02.GameObject\02. Monster\Roller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bayonet_Turret.cpp">
+      <Filter>02.GameObject\01. Turret\Bayonet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GPS.cpp">
+      <Filter>02.GameObject\14. GPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Friendly_GPS.cpp">
+      <Filter>02.GameObject\14. GPS\Friendly_GPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Enemy_GPS.cpp">
+      <Filter>02.GameObject\14. GPS\Enemy_GPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rader_PSystem.cpp">
+      <Filter>02.GameObject\10. ParticleSystem\08. Rader_PSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_HpBar.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI\Boss_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_HpTable.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI\Boss_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Name.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI\Boss_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TransportShip_HpBar.cpp">
+      <Filter>02.GameObject\07. UI\00. StatusUI\TransportShip_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SunSpaceBoss_Body.cpp">
+      <Filter>02.GameObject\02. Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackHole_Effect.cpp">
+      <Filter>02.GameObject\13. Effect\BlackHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EnemySpawn_Effect.cpp">
+      <Filter>02.GameObject\13. Effect\EnemySpawn_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TextureDrawUI.cpp">
+      <Filter>02.GameObject\07. UI\TextureDrawUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RollerSpawn_Effect.cpp">
+      <Filter>02.GameObject\13. Effect\RollerSpawn_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Trajectory.cpp">
+      <Filter>02.GameObject\15. Trajectory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Defaults</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Defaults</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Defaults</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Defaults</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

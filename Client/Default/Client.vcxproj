@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7A52B079-7E11-4EFA-8875-14B555CFDF5B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Public/;../../Reference/Headers/;../Default/</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>call ..\..\UpdateLib.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Public/;../Default/;../../Reference/Headers/</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>call ..\..\UpdateLib.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Armor_UI.h" />
+    <ClInclude Include="..\Public\Bayonet_Turret.h" />
+    <ClInclude Include="..\Public\Benner.h" />
+    <ClInclude Include="..\Public\AI_HPBar.h" />
+    <ClInclude Include="..\Public\BlackHole_Effect.h" />
+    <ClInclude Include="..\Public\Bomb_Effect.h" />
+    <ClInclude Include="..\Public\AI_TransportShip.h" />
+    <ClInclude Include="..\Public\BoosterBar.h" />
+    <ClInclude Include="..\Public\Booster_PSystem.h" />
+    <ClInclude Include="..\Public\Boss_HpBar.h" />
+    <ClInclude Include="..\Public\Boss_HpTable.h" />
+    <ClInclude Include="..\Public\Boss_Name.h" />
+    <ClInclude Include="..\Public\Bullet.h" />
+    <ClInclude Include="..\Public\BulletCountUI.h" />
+    <ClInclude Include="..\Public\BulletUI.h" />
+    <ClInclude Include="..\Public\AI_Friendly.h" />
+    <ClInclude Include="..\Public\Damage_UI.h" />
+    <ClInclude Include="..\Public\CharacterLogo.h" />
+    <ClInclude Include="..\Public\Default_Aim.h" />
+    <ClInclude Include="..\Public\Dive.h" />
+    <ClInclude Include="..\Public\Effect.h" />
+    <ClInclude Include="..\Public\EnemySpawn_Effect.h" />
+    <ClInclude Include="..\Public\Enemy_Roller.h" />
+    <ClInclude Include="..\Public\Enemy_Scourge.h" />
+    <ClInclude Include="..\Public\Enemy_GPS.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExoPlanet_SkyBox.h" />
+    <ClInclude Include="..\Public\Fire_PSystem.h" />
+    <ClInclude Include="..\Public\Friendly_GPS.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\GPS.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Health_UI.h" />
+    <ClInclude Include="..\Public\Hong_Ship_Body.h" />
+    <ClInclude Include="..\Public\Lazer_Bullet.h" />
+    <ClInclude Include="..\Public\Lazer_Turret.h" />
+    <ClInclude Include="..\Public\Level_CharacterSelect.h" />
+    <ClInclude Include="..\Public\Level_ExoPlanet.h" />
+    <ClInclude Include="..\Public\Level_MagmaPlanet.h" />
+    <ClInclude Include="..\Public\Level_SunPlanet.h" />
+    <ClInclude Include="..\Public\Level_VenusPlanet.h" />
+    <ClInclude Include="..\Public\Light_Moon.h" />
+    <ClInclude Include="..\Public\Loading.h" />
+    <ClInclude Include="..\Public\MagmaPlanet_SkyBox.h" />
+    <ClInclude Include="..\Public\MagmaSpace_Body.h" />
+    <ClInclude Include="..\Public\Move_PSystem.h" />
+    <ClInclude Include="..\Public\Normal_Turret.h" />
+    <ClInclude Include="..\Public\HpBar.h" />
+    <ClInclude Include="..\Public\Level_SelectPlanet.h" />
+    <ClInclude Include="..\Public\MovingCamera.h" />
+    <ClInclude Include="..\Public\Parts_UI.h" />
+    <ClInclude Include="..\Public\Planet.h" />
+    <ClInclude Include="..\Public\Planet_Exo.h" />
+    <ClInclude Include="..\Public\Planet_Magma.h" />
+    <ClInclude Include="..\Public\Planet_Red.h" />
+    <ClInclude Include="..\Public\Planet_Select.h" />
+    <ClInclude Include="..\Public\Planet_Sun.h" />
+    <ClInclude Include="..\Public\Planet_Venus.h" />
+    <ClInclude Include="..\Public\Player.h" />
+    <ClInclude Include="..\Public\Rader_PSystem.h" />
+    <ClInclude Include="..\Public\RedPlanet_SkyBox.h" />
+    <ClInclude Include="..\Public\Rocket_PSystem.h" />
+    <ClInclude Include="..\Public\Rocket_Turret.h" />
+    <ClInclude Include="..\Public\Enemy_StagBeetle.h" />
+    <ClInclude Include="..\Public\Rock_1.h" />
+    <ClInclude Include="..\Public\Rock_2.h" />
+    <ClInclude Include="..\Public\Rock_3.h" />
+    <ClInclude Include="..\Public\Rock_4.h" />
+    <ClInclude Include="..\Public\RollerSpawn_Effect.h" />
+    <ClInclude Include="..\Public\Satellite_1.h" />
+    <ClInclude Include="..\Public\Satellite_2.h" />
+    <ClInclude Include="..\Public\Satellite_3.h" />
+    <ClInclude Include="..\Public\Rock_PSystem.h" />
+    <ClInclude Include="..\Public\SelectPlanet_SkyBox.h" />
+    <ClInclude Include="..\Public\SelectShip.h" />
+    <ClInclude Include="..\Public\Shin_Ship_Body.h" />
+    <ClInclude Include="..\Public\Smoke_PSystem.h" />
+    <ClInclude Include="..\public\Song_Ship_Body.h" />
+    <ClInclude Include="..\Public\Cam_FPS.h" />
+    <ClInclude Include="..\Public\Normal_Bullet.h" />
+    <ClInclude Include="..\Public\Cam_Shoulder.h" />
+    <ClInclude Include="..\Public\Cam_TPS.h" />
+    <ClInclude Include="..\Public\Client_Defines.h" />
+    <ClInclude Include="..\Public\Level_RedPlanet.h" />
+    <ClInclude Include="..\Public\Level_Loading.h" />
+    <ClInclude Include="..\public\Level_Logo.h" />
+    <ClInclude Include="..\public\Loader.h" />
+    <ClInclude Include="..\Public\MainApp.h" />
+    <ClInclude Include="..\Public\Monster.h" />
+    <ClInclude Include="..\Public\Quest.h" />
+    <ClInclude Include="..\Public\BillBoard_Object.h" />
+    <ClInclude Include="..\Public\Roket_Bullet.h" />
+    <ClInclude Include="..\Public\ShieldBar.h" />
+    <ClInclude Include="..\Public\SkyBox.h" />
+    <ClInclude Include="..\Public\SpaceDust_PSystem.h" />
+    <ClInclude Include="..\Public\Speed_UI.h" />
+    <ClInclude Include="..\Public\StatusBar.h" />
+    <ClInclude Include="..\Public\Enemy_TagetBoard.h" />
+    <ClInclude Include="..\Public\SunSpaceBoss_Body.h" />
+    <ClInclude Include="..\Public\TargetingBox.h" />
+    <ClInclude Include="..\Public\Teleport_Effect.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h" />
+    <ClInclude Include="..\Public\Kang_Ship_Body.h" />
+    <ClInclude Include="..\Public\TextBox.h" />
+    <ClInclude Include="..\Public\TextureDrawUI.h" />
+    <ClInclude Include="..\Public\Trajectory.h" />
+    <ClInclude Include="..\Public\Trajectory_PSystem.h" />
+    <ClInclude Include="..\Public\TransportShip_HpBar.h" />
+    <ClInclude Include="..\Public\Turret.h" />
+    <ClInclude Include="..\Public\UI.h" />
+    <ClInclude Include="..\Public\UITest.h" />
+    <ClInclude Include="..\Public\VenusPlanet_SkyBox.h" />
+    <ClInclude Include="..\Public\Warring.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="EnemySpace_Body.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\AI_HPBar.cpp" />
+    <ClCompile Include="..\Private\AI_TransportShip.cpp" />
+    <ClCompile Include="..\Private\Armor_UI.cpp" />
+    <ClCompile Include="..\Private\Bayonet_Turret.cpp" />
+    <ClCompile Include="..\Private\Benner.cpp" />
+    <ClCompile Include="..\Private\BlackHole_Effect.cpp" />
+    <ClCompile Include="..\Private\Bomb_Effect.cpp" />
+    <ClCompile Include="..\Private\BoosterBar.cpp" />
+    <ClCompile Include="..\Private\Booster_PSystem.cpp" />
+    <ClCompile Include="..\Private\Boss_HpBar.cpp" />
+    <ClCompile Include="..\Private\Boss_HpTable.cpp" />
+    <ClCompile Include="..\Private\Boss_Name.cpp" />
+    <ClCompile Include="..\Private\Bullet.cpp" />
+    <ClCompile Include="..\Private\BulletCountUI.cpp" />
+    <ClCompile Include="..\Private\BulletUI.cpp" />
+    <ClCompile Include="..\Private\AI_Friendly.cpp" />
+    <ClCompile Include="..\Private\CharacterLogo.cpp" />
+    <ClCompile Include="..\Private\Damage_UI.cpp" />
+    <ClCompile Include="..\Private\Default_Aim.cpp" />
+    <ClCompile Include="..\Private\Dive.cpp" />
+    <ClCompile Include="..\Private\Effect.cpp" />
+    <ClCompile Include="..\Private\EnemySpawn_Effect.cpp" />
+    <ClCompile Include="..\Private\Enemy_Roller.cpp" />
+    <ClCompile Include="..\Private\Enemy_Scourge.cpp" />
+    <ClCompile Include="..\Private\Enemy_GPS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExoPlanet_SkyBox.cpp" />
+    <ClCompile Include="..\Private\Fire_PSystem.cpp" />
+    <ClCompile Include="..\Private\Friendly_GPS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\GPS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Health_UI.cpp" />
+    <ClCompile Include="..\Private\Hong_Ship_Body.cpp" />
+    <ClCompile Include="..\Private\Lazer_Bullet.cpp" />
+    <ClCompile Include="..\Private\Lazer_Turret.cpp" />
+    <ClCompile Include="..\Private\Level_CharacterSelect.cpp" />
+    <ClCompile Include="..\Private\Level_ExoPlanet.cpp" />
+    <ClCompile Include="..\Private\Level_MagmaPlanet.cpp" />
+    <ClCompile Include="..\Private\Level_SunPlanet.cpp" />
+    <ClCompile Include="..\Private\Level_VenusPlanet.cpp" />
+    <ClCompile Include="..\Private\Light_Moon.cpp" />
+    <ClCompile Include="..\Private\Loading.cpp" />
+    <ClCompile Include="..\Private\MagmaPlanet_SkyBox.cpp" />
+    <ClCompile Include="..\Private\MagmaSpace_Body.cpp" />
+    <ClCompile Include="..\Private\Move_PSystem.cpp" />
+    <ClCompile Include="..\Private\Normal_Turret.cpp" />
+    <ClCompile Include="..\Private\HpBar.cpp" />
+    <ClCompile Include="..\Private\Level_SelectPlanet.cpp" />
+    <ClCompile Include="..\Private\MovingCamera.cpp" />
+    <ClCompile Include="..\Private\Parts_UI.cpp" />
+    <ClCompile Include="..\Private\Planet.cpp" />
+    <ClCompile Include="..\Private\Planet_Exo.cpp" />
+    <ClCompile Include="..\Private\Planet_Magma.cpp" />
+    <ClCompile Include="..\Private\Planet_Red.cpp" />
+    <ClCompile Include="..\Private\Planet_Select.cpp" />
+    <ClCompile Include="..\Private\Planet_Sun.cpp" />
+    <ClCompile Include="..\Private\Planet_Venus.cpp" />
+    <ClCompile Include="..\Private\Player.cpp" />
+    <ClCompile Include="..\Private\Rader_PSystem.cpp" />
+    <ClCompile Include="..\Private\RedPlanet_SkyBox.cpp" />
+    <ClCompile Include="..\Private\Rocket_PSystem.cpp" />
+    <ClCompile Include="..\Private\Rocket_Turret.cpp" />
+    <ClCompile Include="..\Private\Enemy_StagBeetle.cpp" />
+    <ClCompile Include="..\Private\Rock_1.cpp" />
+    <ClCompile Include="..\Private\Rock_2.cpp" />
+    <ClCompile Include="..\Private\Rock_3.cpp" />
+    <ClCompile Include="..\Private\Rock_4.cpp" />
+    <ClCompile Include="..\Private\RollerSpawn_Effect.cpp" />
+    <ClCompile Include="..\Private\Satellite_1.cpp" />
+    <ClCompile Include="..\Private\Satellite_2.cpp" />
+    <ClCompile Include="..\Private\Satellite_3.cpp" />
+    <ClCompile Include="..\Private\Rock_PSystem.cpp" />
+    <ClCompile Include="..\Private\SelectPlanet_SkyBox.cpp" />
+    <ClCompile Include="..\Private\SelectShip.cpp" />
+    <ClCompile Include="..\Private\Shin_Ship_Body.cpp" />
+    <ClCompile Include="..\Private\Smoke_PSystem.cpp" />
+    <ClCompile Include="..\private\Song_Ship_Body.cpp" />
+    <ClCompile Include="..\Private\Normal_Bullet.cpp" />
+    <ClCompile Include="..\Private\Cam_FPS.cpp" />
+    <ClCompile Include="..\Private\Cam_Shoulder.cpp" />
+    <ClCompile Include="..\Private\Cam_TPS.cpp" />
+    <ClCompile Include="..\Private\Level_RedPlanet.cpp" />
+    <ClCompile Include="..\Private\Level_Loading.cpp" />
+    <ClCompile Include="..\private\Level_Logo.cpp" />
+    <ClCompile Include="..\private\Loader.cpp" />
+    <ClCompile Include="..\Private\MainApp.cpp" />
+    <ClCompile Include="..\Private\Monster.cpp" />
+    <ClCompile Include="..\Private\Quest.cpp" />
+    <ClCompile Include="..\Private\BillBoard_Object.cpp" />
+    <ClCompile Include="..\Private\Roket_Bullet.cpp" />
+    <ClCompile Include="..\Private\ShieldBar.cpp" />
+    <ClCompile Include="..\Private\SkyBox.cpp" />
+    <ClCompile Include="..\Private\SpaceDust_PSystem.cpp" />
+    <ClCompile Include="..\Private\Speed_UI.cpp" />
+    <ClCompile Include="..\Private\StatusBar.cpp" />
+    <ClCompile Include="..\Private\Enemy_TagetBoard.cpp" />
+    <ClCompile Include="..\Private\SunSpaceBoss_Body.cpp" />
+    <ClCompile Include="..\Private\TargetingBox.cpp" />
+    <ClCompile Include="..\Private\Teleport_Effect.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp" />
+    <ClCompile Include="..\Private\Kang_Ship_Body.cpp" />
+    <ClCompile Include="..\Private\TextBox.cpp" />
+    <ClCompile Include="..\Private\TextureDrawUI.cpp" />
+    <ClCompile Include="..\Private\Trajectory.cpp" />
+    <ClCompile Include="..\Private\Trajectory_PSystem.cpp" />
+    <ClCompile Include="..\Private\TransportShip_HpBar.cpp" />
+    <ClCompile Include="..\Private\Turret.cpp" />
+    <ClCompile Include="..\Private\UI.cpp" />
+    <ClCompile Include="..\Private\UITest.cpp" />
+    <ClCompile Include="..\Private\VenusPlanet_SkyBox.cpp" />
+    <ClCompile Include="..\Private\Warring.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="EnemySpace_Body.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
